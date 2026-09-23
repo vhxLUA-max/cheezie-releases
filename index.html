@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cheezie is a lightweight chess analysis tool for Windows.">
+  <title>Cheezie | Chess Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="./">CHEEZIE</a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="#updates">Updates</a>
+      <a class="github" href="https://github.com/vhxLUA-max/cheessengine-app" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WINDOWS CHESS ANALYZER</p>
+        <h1>Analyze your game.<br><span>Play smarter.</span></h1>
+        <p class="lead">Cheezie is a desktop chess analyzer built for fast, practical analysis with a clean overlay and local engine processing.</p>
+        <div class="actions">
+          <a id="download" class="button primary" href="https://github.com/vhxLUA-max/cheezie-releases/releases/latest/download/Cheezie.exe">
+            <span>Download for Windows</span>
+            <small id="version">Latest release</small>
+          </a>
+          <a class="button secondary" href="https://github.com/vhxLUA-max/cheezie-releases/releases/latest" target="_blank" rel="noopener">View releases</a>
+        </div>
+        <p class="requirements">Windows 10/11 · 64-bit · Free</p>
+      </div>
+
+      <div class="board-wrap" aria-hidden="true">
+        <div class="board">
+          <div class="rank-labels"><span>8</span><span>7</span><span>6</span><span>5</span><span>4</span><span>3</span><span>2</span><span>1</span></div>
+          <div class="files"><span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span></div>
+          <div class="squares">
+            <i>♜</i><i>♞</i><i>♝</i><i>♛</i><i>♚</i><i>♝</i><i>♞</i><i>♜</i>
+            <i>♟</i><i>♟</i><i>♟</i><i>♟</i><i>♟</i><i>♟</i><i>♟</i><i>♟</i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i>♟</i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            <i>♙</i><i>♙</i><i>♙</i><i></i><i>♙</i><i>♙</i><i>♙</i><i>♙</i>
+            <i>♖</i><i>♘</i><i>♗</i><i>♕</i><i>♔</i><i>♗</i><i>♘</i><i>♖</i>
+          </div>
+        </div>
+        <div class="eval-card"><b>+1.42</b><span>BEST MOVE</span><strong>Qxd5</strong></div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <p class="eyebrow">BUILT FOR ANALYSIS</p>
+      <h2>Everything you need.<br>Nothing you don't.</h2>
+      <div class="features">
+        <article><b>01</b><h3>Engine Analysis</h3><p>Run Stockfish analysis locally and control depth, power, threads and other engine settings.</p></article>
+        <article><b>02</b><h3>Live Overlay</h3><p>See evaluations, arrows and move feedback directly over supported chess sites.</p></article>
+        <article><b>03</b><h3>Low Overhead</h3><p>Designed around a lightweight native desktop layer instead of a full Electron application.</p></article>
+        <article><b>04</b><h3>Automatic Updates</h3><p>Install Cheezie once. When a new release is available, the app can update itself without another manual download.</p></article>
+      </div>
+    </section>
+
+    <section id="updates" class="update-section">
+      <div>
+        <p class="eyebrow">ONE INSTALL</p>
+        <h2>Stay up to date automatically.</h2>
+        <p>New production releases are published through GitHub Releases. The Download button always points to the latest Cheezie.exe, while installed versions can use the updater to move to newer releases.</p>
+      </div>
+      <a class="text-link" href="https://github.com/vhxLUA-max/cheezie-releases/releases" target="_blank" rel="noopener">Release history →</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>CHEEZIE</span>
+    <span>Chess analysis for Windows</span>
+    <a href="https://github.com/vhxLUA-max/cheessengine-app" target="_blank" rel="noopener">Source</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
