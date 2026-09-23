@@ -1,11 +1,19 @@
 # Cheezie Releases
 
-Permanent download:
+This repository is used only for Cheezie's production release assets and automatic update metadata.
 
-https://github.com/vhxLUA-max/cheezie-releases/releases/latest/download/Cheezie.exe
+The Cheezie desktop application checks the latest published GitHub Release for:
 
-The latest release also contains the updater manifest:
+- `Cheezie.exe`
+- `latest.json`
+- `Cheezie.exe.sha256`
 
-https://github.com/vhxLUA-max/cheezie-releases/releases/latest/download/latest.json
+Stable latest-release endpoints:
 
-Each production release is tagged with a semantic version such as `v0.3.2`. Development commits are not published here as updater releases.
+`https://github.com/vhxLUA-max/cheezie-releases/releases/latest/download/Cheezie.exe`
+
+`https://github.com/vhxLUA-max/cheezie-releases/releases/latest/download/latest.json`
+
+Production releases should use semantic-version tags such as `v0.0.1`, `v0.0.2`, and so on.
+
+This repository is not the Cheezie website source.
