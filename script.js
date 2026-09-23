@@ -1,0 +1,1 @@
+(async()=>{const v=document.getElementById("version");try{const r=await fetch("https://api.github.com/repos/vhxLUA-max/cheezie-releases/releases/latest",{headers:{Accept:"application/vnd.github+json"}});if(!r.ok)throw new Error();const d=await r.json();if(d.tag_name)v.textContent=d.tag_name+" · Latest release"}catch{v.textContent="Latest release"}})();
